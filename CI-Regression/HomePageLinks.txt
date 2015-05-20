@@ -1,0 +1,17 @@
+***Settings***
+Library     Selenium2Library
+Resource     MyResources.txt
+Resource    keywords.txt
+
+
+
+
+
+*** Test Case ***
+Links are present on HomePage
+   Go to homepage
+   Find Links
+
+
+
+

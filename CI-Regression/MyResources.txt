@@ -1,0 +1,18 @@
+* Setting
+Documentation	resource  file for web summit 
+Library		Selenium2Library
+
+
+* Variables
+${SERVER}   localhost:7272
+${HOMEPAGE}   http://websummit.net/
+${BROWSER}      Firefox
+${DELAY}     0
+
+
+${Home_Link}      Home
+${Speakers_Link}   Speakers
+${ForStartups_Link}    For Startups
+${Investors_Link}    Investors    
+${Partners_Link}       Partners
+${Blog_link}           Blog

@@ -1,0 +1,17 @@
+***Settings***
+Library     Selenium2Library
+Resource    resources.txt
+Resource    keywords.txt
+Suite Setup    Go to homepage
+
+
+***Variables***
+
+*** Tests ***
+Links are present on HomePage
+   Check Homepage Location
+   Find Links
+
+
+
+*** Keywords ***

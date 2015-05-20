@@ -1,0 +1,18 @@
+*** Settings ***
+Library    Selenium2Library
+Library     resources.txt
+
+*** Keywords ***
+Go to homepage
+    Open Browser  ${HOMEPAGE}  ${BROWSER}
+    
+    
+Check Homepage Location
+ 
+   Title Should Be      Web Summit | Where The Tech World Meets
+
+Find Links
+ 	Page Should Contain Link    ${Home_Link} 
+ 	Page Should Contain Link    ${Speakers_Link}
+
+
